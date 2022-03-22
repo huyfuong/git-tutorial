@@ -10,10 +10,30 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="img/logo-min.png">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+        * {
+        box-sizing: border-box;
+        }
+        body {
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        }
+        .active {
+            background-color: dodgerblue;
+        }
+        .menu {
+            font-size: 36px;
+            background-color: #3c3939;
+        }
+        a:hover {
+            background-color: tomato;
+        }
+    </style>
 </head>
 
 <body>
-    <nav>
+    <nav class="menu">
         <a class="active" href="#">Your name</a>
         <a href="pages/ex1.html" target="_blank">Excercise 1</a>
         <a href="pages/ex2.html" target="_blank">Excercise 2</a>
